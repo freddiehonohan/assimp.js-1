@@ -103,7 +103,7 @@
 
 
 template<class ArrayType>
-inline void allocateArray(ArrayType **array, size_t count, size_t &defaultCount)
+inline void allocateArray(ArrayType **array, size_t count, unsigned int &defaultCount)
 {
 	if(array == nullptr)
 	{

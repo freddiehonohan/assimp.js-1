@@ -129,6 +129,7 @@ DISABLEFLAGS= \
 ASSIMP_CORE_SRC = \
 assimp/code/Assimp.cpp \
 assimp/code/AssimpCExport.cpp \
+assimp/code/AssxmlExporter.cpp \
 assimp/code/BaseImporter.cpp \
 assimp/code/BaseProcess.cpp \
 assimp/code/Bitmap.cpp \
@@ -172,13 +173,15 @@ assimp/code/SpatialSort.cpp \
 assimp/code/SplitByBoneCountProcess.cpp \
 assimp/code/SplitLargeMeshes.cpp \
 assimp/code/StandardShapes.cpp \
+assimp/code/StepExporter.cpp \
 assimp/code/Subdivision.cpp \
 assimp/code/TargetAnimation.cpp \
 assimp/code/TextureTransform.cpp \
 assimp/code/TriangulateProcess.cpp \
 assimp/code/ValidateDataStructure.cpp \
 assimp/code/Version.cpp \
-assimp/code/VertexTriangleAdjacency.cpp 
+assimp/code/VertexTriangleAdjacency.cpp \
+assimp/code/XFileExporter.cpp
 
 
 # Future release:
@@ -214,6 +217,7 @@ assimp/code/STLExporter.cpp \
 assimp/code/STLLoader.cpp \
 assimp/code/PlyExporter.cpp \
 assimp/code/PlyLoader.cpp \
+assimp/code/PlyParser.cpp \
 assimp/code/BlenderBMesh.cpp \
 assimp/code/BlenderDNA.cpp \
 assimp/code/BlenderLoader.cpp \
@@ -230,6 +234,7 @@ assimp/code/BVHLoader.cpp
 
 ASSIMP_CONTRIB_SRC = \
 assimp/contrib/clipper/clipper.cpp \
+assimp/contrib/ConvertUTF/ConvertUTF.c \
 assimp/contrib/irrXML/irrXML.cpp \
 assimp/contrib/poly2tri/poly2tri/common/shapes.cc \
 assimp/contrib/poly2tri/poly2tri/sweep/advancing_front.cc \
